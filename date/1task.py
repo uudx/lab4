@@ -1,2 +1,2 @@
 import datetime
-print(int(datetime.datetime.now().strftime('%d')) - 5)
+print("5 days age was: ", datetime.date.today() - datetime.timedelta(days=5))
